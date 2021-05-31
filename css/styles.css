@@ -9,6 +9,19 @@ body{
     padding-right: 100px
 }
 
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 6% 13%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .download-button{
     margin-right: 10px;
     padding-right: 12px;
@@ -45,19 +58,13 @@ h3{
     text-align: center;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 p{
     font-family: "Montserrat-Bold";
     color: #8f8f8f;
     font-weight: 600;
 }
 
-.new_dog{
+.new_dog ,h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     
@@ -83,7 +90,6 @@ p{
     background-color: #ff4c68;
     color: #fff;
     position: relative;
-    /* padding-bottom: 140px; */
 }
 
 .title-image{
@@ -94,8 +100,6 @@ p{
 }
 
 #testimonials{
-    padding: 6% 13%;
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -117,10 +121,6 @@ p{
     margin: 20px 50px 40px;
 }
 
-.carousel-item{
-    padding: 6% 13%;
-}
-
 #testimonials{
     padding-left: 120px;
     padding-right: 120px;
@@ -133,4 +133,31 @@ p{
 
 #pricing-coloumn{
     padding: 2% 3%;
+}
+
+#footer, .carousel-item, #testimonials{
+    padding: 6% 13%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.nav-item{
+    padding: 10px 15px;
+}
+@media (max-width:1032px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    
 }
