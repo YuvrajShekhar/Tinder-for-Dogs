@@ -158,6 +158,18 @@ p{
         transform: rotate(0);
         margin-left: 45px;
         margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 50px;
     }
+    
+    .container-fluid{
+        padding-bottom: 85px;
+        padding-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    
+    
     
 }
